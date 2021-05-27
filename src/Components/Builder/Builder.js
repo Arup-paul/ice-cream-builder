@@ -2,6 +2,7 @@ import React from 'react'
 import classes from './builder.module.css'
 import Items from "./Items/Items";
 import Totalprice from "./TotalPrice/Totalprice";
+import Modal from "./Modal/Modal";
 
 const Builder = () => {
     return (
@@ -16,6 +17,9 @@ const Builder = () => {
                     Add to Cart
                 </button>
             </div>
+            <Modal>
+                Hello MOdal
+            </Modal>
         </div>
     )
 }
