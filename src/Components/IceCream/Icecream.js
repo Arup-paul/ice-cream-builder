@@ -2,15 +2,14 @@ import React from 'react'
 import classes from './icecream.module.css'
 import Scope from "./Scope/Scope";
 
-const Icecream = ( { items }) => {
-    const flavors = Object.keys(items);
+const Icecream = () => {
+    // const flavors = Object.keys(scopes);
     return (
         <div>
             <div className={classes.icecream}>
                 <p className={classes.cone}></p>
-                {flavors.map((flavor) => (
-                  <Scope key={flavor} scope={flavor}/>
-                ))}
+                  <Scope />
+
                 <div className={classes.cherry}  />
 
             </div>

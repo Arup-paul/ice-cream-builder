@@ -15,11 +15,15 @@ export default class IceCreamBuilder  extends Component {
         scopes:[],
         totalPrice:0,
     };
+
+
+
+
    render() {
-       const { items } = this.state;
+       const { items,scopes } = this.state;
        return (
            <div className={[classes.container,'container'].join(' ')}>
-               <Icecream items={items} />
+               <Icecream scopes={scopes} />
                <Builder items={items} />
            </div>
        )
