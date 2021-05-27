@@ -16,17 +16,32 @@ export default class IceCreamBuilder  extends Component {
         totalPrice:0,
     };
 
-   addScope = (scope) => {
+   addScope = (scoop) => {
       const { scoops,items } = this.state;
       const workingScoops = [...scoops];
-      workingScoops.push(scope);
+      workingScoops.push(scoop);
 
       this.setState({
          scoops:workingScoops,
-         totalPrice: items[scope],
+         totalPrice: items[scoop],
 
       });
    }
+
+
+    removeScope = (scoop) => {
+        const { scoops,items } = this.state;
+        const workingScoops = [...scoops];
+        const scoopIndex = workingScoops.findIndex(sc => sc == scoop);
+
+        workingScoops.splice(scoopIndex,1);
+
+        this.setState({
+            scoops:workingScoops,
+            totalPrice: items[scoop],
+
+        });
+    }
 
 
 
