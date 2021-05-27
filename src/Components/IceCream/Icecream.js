@@ -3,7 +3,7 @@ import classes from './icecream.module.css'
 import Scope from "./Scope/Scope";
 
 const Icecream = () => {
-    // const flavors = Object.keys(scopes);
+    // const flavors = Object.keys(scoops);
     return (
         <div>
             <div className={classes.icecream}>
