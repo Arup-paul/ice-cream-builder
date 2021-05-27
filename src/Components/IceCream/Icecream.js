@@ -1,12 +1,13 @@
 import React from 'react'
 import classes from './icecream.module.css'
+import Scope from "./Scope/Scope";
 
 const Icecream = () => {
     return (
         <div>
             <div className={classes.icecream}>
                 <p className={classes.cone}></p>
-                {/*scope component*/}
+                <Scope />
                 <div className={classes.cherry}  />
 
             </div>
