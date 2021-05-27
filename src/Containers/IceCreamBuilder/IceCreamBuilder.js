@@ -20,7 +20,7 @@ export default class IceCreamBuilder  extends Component {
        return (
            <div className={[classes.container,'container'].join(' ')}>
                <Icecream items={items} />
-               <Builder />
+               <Builder items={items} />
            </div>
        )
    }
