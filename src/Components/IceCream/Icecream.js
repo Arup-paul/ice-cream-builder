@@ -9,7 +9,7 @@ const Icecream = ( { items }) => {
             <div className={classes.icecream}>
                 <p className={classes.cone}></p>
                 {flavors.map((flavor) => (
-                  <Scope scope={flavor}/>
+                  <Scope key={flavor} scope={flavor}/>
                 ))}
                 <div className={classes.cherry}  />
 
