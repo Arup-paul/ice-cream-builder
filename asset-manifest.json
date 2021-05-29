@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-ice-cream-builder/static/css/main.ad627c6d.chunk.css",
+    "main.js": "/react-ice-cream-builder/static/js/main.510cc65b.chunk.js",
+    "main.js.map": "/react-ice-cream-builder/static/js/main.510cc65b.chunk.js.map",
+    "runtime-main.js": "/react-ice-cream-builder/static/js/runtime-main.3c4706a6.js",
+    "runtime-main.js.map": "/react-ice-cream-builder/static/js/runtime-main.3c4706a6.js.map",
+    "static/js/2.f811f7fe.chunk.js": "/react-ice-cream-builder/static/js/2.f811f7fe.chunk.js",
+    "static/js/2.f811f7fe.chunk.js.map": "/react-ice-cream-builder/static/js/2.f811f7fe.chunk.js.map",
+    "static/js/3.5956a849.chunk.js": "/react-ice-cream-builder/static/js/3.5956a849.chunk.js",
+    "static/js/3.5956a849.chunk.js.map": "/react-ice-cream-builder/static/js/3.5956a849.chunk.js.map",
+    "index.html": "/react-ice-cream-builder/index.html",
+    "static/css/main.ad627c6d.chunk.css.map": "/react-ice-cream-builder/static/css/main.ad627c6d.chunk.css.map",
+    "static/js/2.f811f7fe.chunk.js.LICENSE.txt": "/react-ice-cream-builder/static/js/2.f811f7fe.chunk.js.LICENSE.txt",
+    "static/media/logo.bb4cecdf.svg": "/react-ice-cream-builder/static/media/logo.bb4cecdf.svg",
+    "static/media/react.e68b35f4.svg": "/react-ice-cream-builder/static/media/react.e68b35f4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c4706a6.js",
+    "static/js/2.f811f7fe.chunk.js",
+    "static/css/main.ad627c6d.chunk.css",
+    "static/js/main.510cc65b.chunk.js"
+  ]
+}
